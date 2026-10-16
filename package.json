@@ -1,0 +1,20 @@
+{
+  "name": "lvs-bio",
+  "version": "1.0.0",
+  "description": "LVS Bio - página de link na bio de alta conversão com chatbot de atendimento",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build-css.js",
+    "dev:css": "node scripts/build-css.js --watch",
+    "start": "node server.js",
+    "dev": "npm run build && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "tailwindcss": "^3.4.17"
+  }
+}
